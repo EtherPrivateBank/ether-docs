@@ -1,6 +1,6 @@
-# Documento: Endpoint de Criação de BR Code Dinâmico para USDT
+# Documento: Endpoint de Criação de Pix Dinâmico para USDT
 
-Este documento descreve o funcionamento do endpoint para a criação de um BR Code dinâmico, que permite a realização de pagamentos via Pix utilizando criptomoedas.
+Este documento descreve o funcionamento do endpoint para a criação de um Pix dinâmico, que permite a realização de pagamentos via Pix utilizando criptomoedas.
 
 ## Endpoint
 
@@ -49,11 +49,11 @@ A resposta é retornada em formato JSON, contendo as seguintes informações:
 }
 ```
 
-- **message**: Mensagem de confirmação da criação do BR Code.
-- **uuid**: Identificador único do BR Code gerado.
-- **brcodeId**: Identificador do BR Code para pagamento via Pix.
+- **message**: Mensagem de confirmação da criação do Pix.
+- **uuid**: Identificador único do Pix gerado.
+- **brcodeId**: Identificador do Pix para pagamento via Pix.
 - **tags**: Tags associadas à transação.
-- **pictureUrl**: URL da imagem do BR Code gerado.
+- **pictureUrl**: URL da imagem do Pix gerado.
 - **prchaseFlowId**: Identificador do fluxo de compra.
 - **amount**: Valor original da transação em reais.
 - **tradePrice**: Preço de conversão da criptomoeda.
