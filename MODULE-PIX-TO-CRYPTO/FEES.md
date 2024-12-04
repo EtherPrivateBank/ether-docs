@@ -1,18 +1,23 @@
 # Tarifas
 
-## Pix Cash In
+## Serviços Disponíveis
 
-- **Valor Fixo:** 64 centavos
 
-## Conversão
-
-- **Spread:** 2,5%
-
-## Limites de Transação
-
-- **Mínimo:** 10 reais
-- **Máximo:** Não há máximo
-
-## Tempo Médio de Transação
-
-- **Duração:** 10 minutos
+| **Serviço**                                                                 | **Descrição**                                                                                                                                                                                                 | **Preço**        |
+|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| **Digitalização e Validação de Documentos (OCR)**                          | Utiliza tecnologia de Reconhecimento Óptico de Caracteres para digitalizar documentos físicos, classificá-los automaticamente e validar as informações extraídas.                                             | R$ 45,00         |
+| **Reconhecimento Facial com Prova de Vida 3D**                             | Verifica a identidade do usuário por meio de reconhecimento facial tridimensional, assegurando que a pessoa está presente no momento da autenticação.                                                         | R$ 27,00         |
+| **Verificação de Antecedentes Criminais**                                  | Realiza uma pesquisa abrangente em bases de dados para identificar possíveis registros criminais associados ao indivíduo.                                                                                     | R$ 32,40         |
+| **Prova de Vida com Interação Numérica e Evidências Digitais**             | Solicita ao usuário que execute ações específicas, como digitar números ou fornecer provas digitais, para confirmar sua vivacidade.                                                                           | R$ 27,00         |
+| **Prova de Vida com Interação Numérica e Reconhecimento de Voz**           | Combina a inserção de números com a análise de voz do usuário para garantir que a pessoa está viva e presente.                                                                                                | R$ 32,40         |
+| **Prova de Vida com Reconhecimento de Voz e Impressão Digital**            | Integra a autenticação por voz com a leitura de impressões digitais para uma verificação de identidade robusta.                                                                                               | R$ 27,00         |
+| **Validação por Sensores Biométricos**                                     | Utiliza dispositivos biométricos para autenticar características físicas únicas do usuário, como impressões digitais ou padrões de íris.                                                                      | R$ 18,00         |
+| **Validação por Vídeo**                                                    | Requer que o usuário grave um vídeo curto, permitindo a análise de movimentos e comportamentos para confirmar sua identidade.                                                                                 | R$ 18,00         |
+| **Análise Contratual e Assinatura Eletrônica**                             | Examina documentos contratuais para reconhecimento de padrões e facilita a assinatura eletrônica, assegurando a autenticidade e integridade dos contratos.                                                    | R$ 36,00         |
+| **Análise de Validação de Identidade**                                     | Conduz uma verificação abrangente dos dados pessoais do usuário para confirmar sua identidade, cruzando informações em diversas bases de dados.                                                               | R$ 27,00         |
+| **Envio de OTP via SMS**                                                   | Envia Senhas Temporárias (One-Time Passwords) por mensagem de texto para autenticação de dois fatores ou validação de transações.                                                                             | R$ 2,70          |
+| **Geração de Chave Pix para Depósitos (Cash In)**                          | Cria chaves Pix específicas para facilitar depósitos, aplicando uma taxa percentual sobre o valor transacionado.                                                                                              | 0,55% do valor   |
+| **Pagamento via Pix Copia e Cola (Cash Out)**                              | Permite pagamentos utilizando a funcionalidade "Copia e Cola" do Pix, com uma taxa percentual sobre o valor transferido.                                                                                      | 1% do valor      |
+| **Transferência via Pix (Cash Out)**                                       | Realiza transferências de valores através do Pix, aplicando uma taxa percentual sobre o montante enviado.                                                                                                     | 1% do valor      |
+| **Troca de Criptomoedas (Swap) com Spread**                                | Facilita a troca entre diferentes criptomoedas, incorporando um spread percentual sobre a taxa de câmbio vigente.                                                                                              | 2% do valor      |
+| **Conversão de Pix para Criptomoeda (USDT) com Spread**                    | Converte valores recebidos via Pix para USDT, aplicando um spread percentual sobre a taxa de conversão atual.                                                                                                 | 2,5% do valor    |
