@@ -14,11 +14,11 @@ Bem-vindo à documentação do aplicativo Ether Global Assets! Este aplicativo p
 ### Autenticação
 
 - **Login**: Realiza o login e obtém o token de acesso.
-  - **URL**: `{{url}}/auth/login`
+  - **URL**: `https://api.sandbox.etherglobalassets.com.br/auth/login`
   - **Método**: POST
   - **Headers**: 
     - Content-Type: application/json
-    - Referer: https://sandbox.etherprivatebank.com.br/
+    - Referer: https://sandbox.etherglobalassets.com.br/
   - **Corpo**:
     ```json
     {
@@ -30,11 +30,11 @@ Bem-vindo à documentação do aplicativo Ether Global Assets! Este aplicativo p
 ### BRCodes
 
 - **Consultar Saldo eBRL**
-  - **URL**: `{{url}}/wallets/ebrl-balance`
+  - **URL**: `https://api.sandbox.etherglobalassets.com.br/wallets/ebrl-balance`
   - **Método**: GET
 
 - **Criar Pix Dinâmico com Criptomoeda**
-  - **URL**: `{{url}}/brcodes/v3/crypto`
+  - **URL**: `https://api.sandbox.etherglobalassets.com.br/brcodes/v3/crypto`
   - **Método**: POST
   - **Headers**: 
     - Content-Type: application/json
@@ -50,21 +50,21 @@ Bem-vindo à documentação do aplicativo Ether Global Assets! Este aplicativo p
     ```
 
 - **Pagar Pix com Chave**
-  - **URL**: `{{url}}/brcodes/payout/v3/pix-key`
+  - **URL**: `https://api.sandbox.etherglobalassets.com.br/brcodes/payout/v3/pix-key`
   - **Método**: POST
   - **Headers**:
     - brcodeId: [seu brcodeId aqui]
   - **Corpo**:
     ```json
     {
-      "pixKey": "pedrosgmagalhaes@gmail.com",
+      "pixKey": "exemplo@dominio.com",
       "amount": 90,
       "description": "teste teste"
     }
     ```
 
 - **Realizar Pagamento BRCode**
-  - **URL**: `{{url}}/brcodes/pay`
+  - **URL**: `https://api.sandbox.etherglobalassets.com.br/brcodes/pay`
   - **Método**: POST
   - **Headers**:
     - Content-Type: application/json
@@ -77,7 +77,7 @@ Bem-vindo à documentação do aplicativo Ether Global Assets! Este aplicativo p
     ```
 
 - **Verificar Status**
-  - **URL**: `{{url}}/brcodes/v3/status`
+  - **URL**: `https://api.sandbox.etherglobalassets.com.br/brcodes/v3/status`
   - **Método**: POST
   - **Corpo**:
     ```json
@@ -88,7 +88,7 @@ Bem-vindo à documentação do aplicativo Ether Global Assets! Este aplicativo p
 
 ## Variáveis de Ambiente
 
-- **url**: `https://api.sandbox.etherprivatebank.com.br`
-- **c_email**: `admin@etherprivatebank.com.br`
-- **c_password**: `newPassword`
+- **url**: `https://api.sandbox.etherglobalassets.com.br`
+- **c_email**: `admin@exemplo.com`
+- **c_password**: `senhaFicticia123`
 - **access_token**: (preencher após login)
