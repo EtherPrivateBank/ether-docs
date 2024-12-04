@@ -1,6 +1,3 @@
-### MODULE-PIX-TO-CRYPTO/README.md
-
-```markdown
 # Endpoint de Criação de Pix Dinâmico para USDT
 
 Este documento descreve o funcionamento do endpoint para a criação de um Pix dinâmico, que permite a realização de pagamentos via Pix utilizando criptomoedas.
