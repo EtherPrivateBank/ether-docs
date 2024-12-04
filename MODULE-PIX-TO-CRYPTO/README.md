@@ -1,4 +1,7 @@
-# Documento: Endpoint de Criação de Pix Dinâmico para USDT
+### MODULE-PIX-TO-CRYPTO/README.md
+
+```markdown
+# Endpoint de Criação de Pix Dinâmico para USDT
 
 Este documento descreve o funcionamento do endpoint para a criação de um Pix dinâmico, que permite a realização de pagamentos via Pix utilizando criptomoedas.
 
@@ -70,3 +73,4 @@ A resposta é retornada em formato JSON, contendo as seguintes informações:
 - **Redes Suportadas**: As redes suportadas são `ETH`, `TRX` (Tron) e `Polygon`, devendo ser especificadas na requisição.
 
 Este endpoint oferece uma forma eficiente e segura de realizar pagamentos via Pix utilizando criptomoedas, com suporte a múltiplas redes de blockchain.
+```
