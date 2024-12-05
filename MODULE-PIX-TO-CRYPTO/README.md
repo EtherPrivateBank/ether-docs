@@ -14,7 +14,7 @@ A requisição deve ser enviada no formato JSON, contendo os seguintes campos:
 {
     "amount": 1500,
     "network": "ETH",
-    "token": "USDTBRL",
+    "token": "USDT",
     "walletAddress": "0x3cb20c4f4c0b0df25a10e56e0ff5f8619d15dd39"
 }
 ```
