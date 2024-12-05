@@ -21,7 +21,7 @@ A requisição deve ser enviada no formato JSON, contendo os seguintes campos:
 
 - **amount**: Valor em reais a ser convertido para criptomoeda.
 - **network**: Rede de blockchain a ser utilizada. As opções disponíveis são `ETH` (Ethereum), `TRX` (Tron) e `MATIC` (Polygon).
-- **token**: Token a ser utilizado na transação. Exemplo: `USDTBRL`.
+- **token**: Token a ser utilizado na transação. Exemplo: `USDT`.
 - **walletAddress**: Endereço da carteira de destino.
 
 ### Resposta
